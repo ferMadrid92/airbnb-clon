@@ -2,14 +2,13 @@
 @use 'base/mixins' as m;
 
 
-.notwebp {
-    .notavif {
+.notwebp.notavif {
         .header {
             background-image: url(../img/header.jpg);
             @include m.header-base;
         }
     }
-}
+
 .webp {
     .header {
         background-image: url(../img/header.webp);
